@@ -20,6 +20,7 @@ namespace OdbcCap2
             connectionString.Append(driver);
             connectionString.Append(";server=");
             connectionString.Append(servidor);
+
             connectionString.Append(";database=");
             connectionString.Append(baseDeDados);
             connectionString.Append(";TrustedConnection=Yes");
